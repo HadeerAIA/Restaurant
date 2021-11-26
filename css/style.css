@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.white{
+    color: white;
+}
+h1 {
+    text-transform: capitalize;
+}
+.clear{
+    clear: both;
+}
+h1, h2, p, span, a {
+    font-family: "museo-sans", helvetica, sans-serif;
+    color: #2f2e2f;
+    margin: 0;
+    padding: 0;
+}
+.col-sm-6,.col-md-4, .col-md-6, .col-lg-6, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    float: left;
+    width: 50%;
+  }
+ 
+
+
+
+
+
+
+
+
+/* navbar styling */
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.1),rgba(4,9,30,0.1)),url(../images/steak.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    z-index: 100;
+    background-color: #1e1e1e;        
+}
+.navbar-brand{
+    padding-left: 15px;
+    font-family: 'Pacifico', cursive;
+    font-size: 34px !important;
+    text-decoration: none;
+    color: white !important;
+}
+.color_animation {
+    text-decoration: initial;
+    word-spacing: 5px;
+    margin-right: -20px;
+    margin-left: -30px !important;
+    color: white !important;
+    -webkit-transition: color 0.3s ease-out;
+    -moz-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    -ms-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+.color_animation:hover{
+    color: #9BE86F !important;
+}
+.main-nav li {
+    display: inline-block;
+    margin: 0 29px 0 29px;
+}
+.main-nav a {
+    font-size: 0.75000em;
+    font-weight: 700;
+    }
+.main-nav a:hover {
+    color: #6c8f34;
+}
+.second-title {
+    font-weight: lighter; 
+    font-size: 30px; 
+    font-style: italic; 
+    text-transform: capitalize;
+}
+.top-title{
+    font-family: 'Playball', cursive;
+    font-size: 120px;
+    font-weight: 400;
+ }
+ .follow_container {
+    width: 100%;
+    position: absolute;
+    top: 35%;
+    text-align: center;
+}
+
+/* about us */
+.center {
+    text-align: center; 
+}
+div .fa-2x {
+    padding: 30px 0px 25px 0px;
+    display: block;
+}
+p.desc-text{
+    font-size: 20px;
+    line-height: 35px;
+    text-align: justify;
+    padding:0 30px 0 30px;
+}
+#img{
+    float: right;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.about{
+    border: solid 1px #1e1e1e;
+    margin: 0 150px;
+    margin-top: 100px;
+}
+/* pricing */
+
+.background_content {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 570px;
+    background-color: white;
+    margin: 0 auto 0 auto;
+    z-index: 98;
+    text-align: center;
+}
+
+.background_content h1 {
+    width: 60%;
+    position: relative;
+    color: white;
+    padding: 0;
+    border: 0;
+    display: inline-block;
+    font-size: 4.5em;
+    top: 41%;
+    width: 100%;
+}
+.background_content h1 span {
+    color: white;
+    border-bottom: 12px solid #fff;
+}
+.pricing.background_content{
+    background: url('../images/pricing.jpg') no-repeat center center; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+
+
+ .beer.background_content{
+    background: url('../images/beer.jpg') no-repeat center center; 
+    background-size: cover;
+    background-position: 70% 50%;
+}
+
+.bread.background_content{
+    background: url('../images/bread.jpg') no-repeat center center; 
+    background-size: cover;
+    background-position: 70% 50%;
+}
+ .featured.background_content{
+    background: url('../images/featured.jpg') no-repeat center center; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.reservation.background_content{
+    background: url('../images/reservation-seat.jpg') no-repeat center center; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+} 
+.bread.background_content{
+    background: url('../images/breakfast.jpg') no-repeat center center; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+} 
+
+/** filters list **/
+#filter-list {
+    margin-top: 30px;
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 25px;
+}
+#filter-list li {
+	font-weight: bold;
+	color:black !important;
+  display: inline-block;
+  width: auto;
+  padding: 6px 10px;
+	margin-right: 15px;
+	font-size: 1.2em;
+	cursor: pointer;
+	border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+#filter-list li:hover {
+	color: rgb(129, 24, 24) !important;
+}
+#filter-list li.active {
+	font-weight: bold;
+	border-color: #000;
+}
+/** portfolio list **/
+#portfolio {
+	display: block;
+    width: 100%;
+    padding: 0 12px;
+    margin-bottom: 0;
+	text-align: center;
+}
+.pr{
+    margin-bottom: 50px;
+}
+#portfolio .item {
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+	margin-bottom: 25px;
+	margin-right: 20px;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	width: 207px;
+}
+#portfolio .item h2 {
+    font-size: 22px;
+    background-color: rgb(129, 24, 24);
+}
+#portfolio .item1 {
+	display: inline-block;
+	opacity: 0;
+	vertical-align: top;
+	margin-bottom: 25px;
+	margin-right: 20px;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+}
+#portfolio .item a {
+  display: inline-block;
+  max-width: 100%;
+  text-decoration: none;
+  background: #fff;
+}
+#portfolio .item img {
+  max-width: 100%;
+}
+.brd{
+    float: right;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+/* footer */
+footer.sub_footer {
+    background-color: #1C1C1C;
+    padding: 20px;
+}
+
+
+p.sub-footer-text{
+    color: #6B6B6B;
+}
+
+p.sub-footer-text a{
+    color: #BDBDBD;
+    text-decoration: none;
+}
